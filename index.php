@@ -65,7 +65,7 @@
 		    	if($page==1){
 		    		echo "<li class='previous disabled'><a href='javascript:;'><span >&larr;</span> 上一页</a></li>";
 		    	}else{
-		    		echo "<li class='previous'><a href='index.php?{$prev}'><span >&larr;</span> 上一页</a></li>";
+		    		echo "<li class='previous'><a href='index.php?page={$prev}'><span >&larr;</span> 上一页</a></li>";
 		    	}
 
 		    	if($page==$pages){
