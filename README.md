@@ -28,3 +28,10 @@
 	CRUD of users information
 	show pages
 
+# directory structure
+	index.php -- 首页 查询结果页 含分页
+	act.php   -- 处理页面 增删改所触发的操作
+	add.php   -- 添加用户过渡页 填写新增信息
+	update.php-- 更新用户过渡页 更新用户信息
+	db.sql    -- 分离出来的数据表信息
+
